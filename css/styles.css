@@ -191,6 +191,14 @@ h1, h2, h3, h4, h5, h6, p {
 .features-li{
         max-width: calc((100% - 72px)/4);
 }
+.container-icons {
+        background-color: #f4f4fd;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        padding: 24px 100px;
+        margin: 0 auto;
+        margin-bottom: 8px;
+}
 .feature-section {
         font-family: Roboto;
         font-size: 20px;
