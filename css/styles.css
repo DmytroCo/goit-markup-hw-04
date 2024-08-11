@@ -267,6 +267,32 @@ h1, h2, h3, h4, h5, h6, p {
         text-align: center;
         color: #434455;    
 }
+.social-icons {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-color:#404BBF;
+
+}
+.social-ul {
+        display: flex;
+        column-gap: 15px;
+        justify-content: center;
+        padding-top: 8px;
+}
+.social-li {
+        display: flex;
+        align-items: center;     
+}
+.icons {
+        fill:#f4f4fd;
+}
+.social-icons:hover {
+        background-color:#31D0AA;
+}
 /*end section3*/
 
 /*section 4*/
