@@ -326,7 +326,9 @@ h1, h2, h3, h4, h5, h6, p {
 }      
 .portfolio-li:hover .portfolio-cover-text {
         transform: translate(0);
-        cursor:pointer;
+}
+.portfolio-li:hover {
+        cursor: pointer;
         box-shadow:
                 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -353,13 +355,6 @@ h1, h2, h3, h4, h5, h6, p {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
-}
-.container-portfolio:hover {
-        cursor:pointer;
-        box-shadow:
-                0px 1px 6px rgba(46, 47, 66, 0.08),
-                0px 1px 1px rgba(46, 47, 66, 0.16),
-                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-section {
