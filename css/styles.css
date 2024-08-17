@@ -440,11 +440,8 @@ h1, h2, h3, h4, h5, h6, p {
         align-items: center;
 }
 .footer-social-icons {
-        display: flex;
         flex-direction: column;
-        margin: 0;
         margin-left: 120px;
-        padding: 0;
         align-items: center;
         justify-content: center;
 }
